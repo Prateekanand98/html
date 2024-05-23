@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lets Make A form.
+    </h1>
+    <hr>
+    <form action = "">
+     <fieldset>
+            <legend>LOGIN INFO</legend>
+        <label for="username-1">Enter User-name    :</label>
+        <input type="text" id="username-1" placeholder="Unique Id" required>
+    <label for="username-3">Enter Password :</label>
+    <input type="password" id="username-3" placeholder="Enter password" name = "password" required>
+     </fieldset>
+    <hr>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+    <label for="username-2">Enter Mobile No. :</label>
+        <input type="tel" id="username-2" value="+91" name = "phone no.">   
+    </fieldset>  
+    <hr>
+
+    <fieldset>
+        <legend>Additional Info</legend>
+    <label for="username-5">Language : English</label>
+        <input type="checkbox" id="username-5"  name = "g">     
+    <label for="username-6">Hindi :</label>
+        <input type="checkbox" id="username-6"  name = "g">     
+    <hr>
+
+    <label for="username-9">State :</label>
+    <select name="" id="username-9">
+        <option value="" disabled selected> Select State</option>
+        <option value=""> Select State</option>
+        <option value="MP">Madhya Pradesh</option>
+        <option value="CG">Chhatishghar</option>
+        <option value="BH">Bihar</option>
+        <option value="DL">Delhi</option>
+    </select>
+    <hr>
+
+    <label for="username-7">Gender : Male </label>
+        <input type="radio" id="username-7"  name = "g">     
+    <label for="username-8">Female </label>
+        <input type="radio" id="username-8"  name = "g"> 
+
+    <hr>
+    <label for="username-11">Birthday :</label>
+    <input type="date" id="username-11" name="birthdate" />
+        
+    </fieldset>
+    <hr>
+
+    <label for="comments">Enter your declaration:</label>
+    <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Type here" required></textarea>
+    <hr>
+
+    <label for="username-4">Counter :</label>
+    <input type="number" id="username-4"  name = "Counter" min="0" max="10">     
+    <hr>
+
+    <label for="username-10">Select a File :</label>
+    <input type="file" id="username-10" name="file" />
+    <hr>
+
+    <button type="Submit">Submit</button>
+
+    </form>
+</body>
+</html>
